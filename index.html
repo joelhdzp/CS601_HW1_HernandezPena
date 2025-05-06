@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Subscription Form</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <form id="subscriptionForm">
+    <label>First Name: <input type="text" id="firstName" /></label><br/>
+    <label>Last Name: <input type="text" id="lastName" /></label><br/>
+    <label>Email: <input type="email" id="email" /></label><br/>
+    <label>Package:
+      <select id="package">
+        <option value="">Select</option>
+        <option value="Bronze">Bronze</option>
+        <option value="Silver">Silver</option>
+        <option value="Gold">Gold</option>
+        <option value="Platinum">Platinum</option>
+      </select>
+    </label><br/>
+    <label><input type="checkbox" id="subscribe" /> Subscribe to newsletter</label><br/>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="summary"></div>
+  <script src="script.js"></script>
+</body>
+</html>
