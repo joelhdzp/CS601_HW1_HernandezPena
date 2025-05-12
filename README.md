@@ -19,4 +19,4 @@ This project creates a dynamic web form using HTML, CSS, and JavaScript. It perf
 3. Review the output summary or fix errors if shown.
 
 ## Author
-Joel Hernandez
+Joel Hernandez Pena
