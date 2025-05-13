@@ -1,30 +1,40 @@
+<!-- CS601 - Assignment 1 - HTML -->
+<!-- Created by Joel Hernandez Pena -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Subscription Form</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS601 - Assignment 1</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/main.js" defer></script>
 </head>
-<body>
-  <form id="subscriptionForm">
-    <label>First Name: <input type="text" id="firstName" /></label><br/>
-    <label>Last Name: <input type="text" id="lastName" /></label><br/>
-    <label>Email: <input type="email" id="email" /></label><br/>
-    <label>Package:
-      <select id="package">
-        <option value="">Select</option>
-        <option value="Bronze">Bronze</option>
-        <option value="Silver">Silver</option>
-        <option value="Gold">Gold</option>
-        <option value="Platinum">Platinum</option>
-      </select>
-    </label><br/>
-    <label><input type="checkbox" id="subscribe" /> Subscribe to newsletter</label><br/>
-    <button type="submit">Submit</button>
-  </form>
 
+<!-- This part contains the form design -->
+<body>
+  <h1>Interactive Web Form</h1>
+  <p>Please provide the following information:</p>
+  <!-- Keeping the form logic strictly on the client side -->
+    <form id="interactiveWebForm">
+      <!-- Defining the form controls -->
+      <label>First Name <input type="text" id="firstName"></label><br><br>
+      <label>Last Name <input type="text" id="lastName"></label><br><br>
+      <label>Email <input type="email" id="email"></label><br><br>
+      <label>Package:
+        <select id="package">
+          <option value="">-- Select --</option>
+          <option value="Bronze">Bronze</option>
+          <option value="Silver">Silver</option>
+          <option value="Gold">Gold</option>
+          <option value="Platinum">Platinum</option>
+        </select><br>
+      </label><br>
+      <label><input type="checkbox" id="subscribe"> Subscribe to newsletter</label><br><br>
+      <button type="submit">Submit</button>
+    </form>
+  
+  <!-- Adding the summary division to show the JS script execution -->
   <div id="summary"></div>
-  <script src="script.js"></script>
 </body>
 </html>
