@@ -1,0 +1,100 @@
+/*
+CS601 - Assignment 1 - CSS
+Created by Joel Hernandez Pena
+*/
+
+/* Adding different font styles: <h1> <p> <body> */
+h1 {
+  width: 350px;
+  margin: 20px auto;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+
+p {
+  width: 350px;
+  margin: 10px auto;
+  font-family: Lucida Console, monospace;
+  font-size: 14px;
+}
+
+body {
+  font-family: Arial Narrow, sans-serif;
+  background-color: #f4f4f9;
+  font-size: 18px;
+}
+
+/* Styling the form's box: size and shadow */
+form {
+  width: 350px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+/* Manipulating inputs individually */
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+select {
+  width: 220px;
+  padding: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Styling the "Submit" button: pointer, color and hover */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Inverting colors when hovering */
+button:hover {
+  background-color: white;
+  border: 1px double #0056b3;
+  color: #0056b3;
+}
+
+/* Styling the summary message */
+#summary {
+  width: 100%;
+  margin: 20px auto;
+  margin-top: 400px;
+  color: black;
+}
+
+/* Styling the error list: font and background colors */
+ul {
+  list-style-type: circle;
+  width: 300px;
+  margin: 20px auto;
+  color: red;
+  background-color: yellow;
+  border: 1px solid;
+  position: fixed;
+  top: 0;
+  right: 0;
+  float: right;
+}
